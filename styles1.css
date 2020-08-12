@@ -3,18 +3,15 @@
     padding-left: 1rem;
 }
 
-.contact-us{
-    margin-top: 2.5rem;
-    margin-left: 3rem;
-}
-
 .about{
     margin-top: 2.5rem;
+    z-index: 2;
 }
 
 .btns{
     margin-top: 2.5rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
+    z-index: 2;
 }
 
 .mark{
@@ -29,6 +26,10 @@
 
 .one{
     background-color:#84dcf1;
+}
+
+.btn-primary:hover {
+    background-color: maroon !important;
 }
 
 #image1{
@@ -50,8 +51,9 @@
 .tagline{
     margin-top: 2.8rem;
     margin-left: 2rem;
-    color: red;
+    color: rgb(0, 17, 255);
     text-align: center;
+    font-family: 'Fredoka One', cursive;
 }
 
 .row-one{
@@ -90,4 +92,20 @@
 
 .hover:hover{
     color: maroon;
+}
+
+.mark:hover{
+    animation-play-state: paused;
+}
+
+.footer{
+    background-color: #84F1C5;
+}
+
+.last{
+    padding-top: 1rem;
+}
+
+.final{
+    margin-left: 4.5rem;
 }
