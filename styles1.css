@@ -1,0 +1,93 @@
+.div1{
+    font-weight: bolder;
+    padding-left: 1rem;
+}
+
+.contact-us{
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
+.about{
+    margin-top: 2.5rem;
+}
+
+.btns{
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+}
+
+.mark{
+    margin-bottom: 0px;
+}
+
+.navbar-nav {
+    padding-top: 15px; 
+    margin-top: 0.7rem;
+    padding-left: 20rem;
+}
+
+.one{
+    background-color:#84dcf1;
+}
+
+#image1{
+    
+    height: 8rem;
+}
+
+.nav-item{
+    font-size: 2rem !important;
+}
+
+.para{
+    text-align: center;
+    line-height: 3rem;
+    margin-top: 3rem;
+    background-color:#00FFFFFF !important;
+}
+
+.tagline{
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+    color: red;
+    text-align: center;
+}
+
+.row-one{
+    background-color: #84F1C5;
+    margin-top: 0px;
+}
+
+#body{
+    background-color: #84dcf1;
+}
+
+.unplugged{
+    height: 20rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 20%;
+}
+
+.images{
+    text-align: center;
+    font-size: 8rem;
+}
+
+.icons{
+    background-color: #84F1C5;
+}
+/* background-color: #84dcf1; */
+
+.para:hover > *{
+    opacity: 0.5;
+}
+
+.para:hover > *:hover{
+    opacity: 1;
+}
+
+.hover:hover{
+    color: maroon;
+}
