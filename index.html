@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
-
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@800&display=swap" rel="stylesheet">
         <link href="styles1.css" rel="stylesheet">
@@ -22,7 +22,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </head>
     <body id="body">
-        <font color="red"><marquee class="mark" direction="left" style="background:lightyellow"> <b> Due to Covid-19 outbreak, we would be still working on assisting you with the learning modules, trainings and software solutions.</b></marquee></font>
+        <div id="line"><font color="red"><marquee class="mark" direction="left" style="background:lightyellow"> <b> Due to Covid-19 outbreak, we would be still working on assisting you with the learning modules, trainings and software solutions.</b></marquee></font></div>
         <div class="div1 container-fluid">
           <div class="row row-one">
             <div class="col-1">
@@ -33,9 +33,9 @@
             </div>
             <div class="col-5">
               <div class="div1">
-                <button type="button" class="btn btn-outline-success btn-lg about">About Us</button>
-                <button type="button" class="btn btn-outline-success btn-lg btns">Videos</button>
-                <button type="button" class="btn btn-outline-success btn-lg btns">Contact Us</button>
+                <button type="button" class="btn btn-primary btn-lg about">About Us</button>
+                <button type="button" class="btn btn-primary btn-lg btns">Videos</button>
+                <button type="button" class="btn btn-primary btn-lg btns">Contact Us</button>
               </div>
             </div>
             <br>
@@ -83,6 +83,102 @@
             </div>
           </div>
         </div>
+
+        <div class="container-fluid">
+          <form class="needs-validation" novalidate>
+          <br>
+          <div class="row">
+            <div class="col-2">
+              <div col-md-6 mb-3>
+                <label for="validationCustom01">First Name</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Enter first name" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div><!--column end-->
+
+            <div class="col-2">
+              <div col-md-6 mb-3>
+                <label for="validationCustom02">Second Name</label>
+                <input type="text" class="form-control" id="validationCustom02" placeholder="Enter second name" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div><!--column end-->
+
+            <div class="col-5">
+              <div class="col-md-6 mb-3">
+                <label for="validationCustom03">E-Mail</label>
+                <input type="email" class="form-control" id="validationCustom03" placeholder="Enter e-mail" required>
+                <div class="invalid-feedback">
+                  Please provide a valid E-mail!
+                </div>
+              </div>
+            </div> <!--column end-->
+          </div> <!--row end-->
+
+          <div class="row">
+              <div class="col">
+                <div class="col-md-3 mb-3">
+                  <label for="validationCustom05">Type your message.</label>
+                  <textarea id="validationCustom05" class="form-control" rows="10" cols="50" placeholder="Enter your message here" required></textarea>
+                  <div class="invalid-feedback">
+                    Please provide some message.
+                  </div>
+                </div>
+              </div>
+          </div><!--row end-->
+
+          <div class="row">
+            <div class="col">
+              <div class="col">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <br>
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </div>
+          </form>
+            <br>
+        </div>
+          <div class="container-fluid footer">
+            <div class="row last">
+              <div class="col-9">
+                <div class="card border-dark mb-3" style="max-width: 18rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body text-dark">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-3">
+                <div class="card border-dark mb-3 final" style="max-width: 18rem;">
+                  <div class="card-header">Header</div>
+                  <div class="card-body text-dark">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         <script src="app.js" defer></script>
     </body>
 </html>
